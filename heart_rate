@@ -1,6 +1,6 @@
 # Alysha Johnson, sqt6hx
 
-
+import test_heart_rate
 def gellish2(age_min=1,age_max=100):
     from random import randint as age_range
     HR_max = (191.5-(0.007*((age_range(age_min,age_max))* (age_range(age_min,age_max)))))
@@ -15,3 +15,7 @@ def in_target_range(hr,age_min=1,age_max=100):
     lower_range = (.65*HR_max)
     return hr <= upper_range
     return hr >= lower_range
+
+
+
+
